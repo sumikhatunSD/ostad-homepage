@@ -1,0 +1,198 @@
+@media(max-width: 1200px) {
+    /*Upcoming Live Course */
+    .category .five {
+        display: none;
+    }
+    .courses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /* Free master class design */
+    .category .sixth {
+        display: none;
+    }
+    /* footer section design */
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* header section design */
+    .header-left ul {
+        display: none;
+    }
+    .header-left .menu {
+        display: block;
+        padding: 5px 12px;
+        border-radius: 10px;
+        background-color: rgb(236, 243, 247);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .header-left .menu:hover{
+        background-color: rgb(217, 222, 225);
+    }
+    .logo img{
+        width: 80px;
+    }
+    .search-box {
+    padding: 5px 8px;
+    border-radius: 5px;
+    width: 80px;
+    }
+    /* hero section design start*/
+     .hero-section {
+        flex-direction: column;  
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .hero-section h2 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .hero-section .hero {
+        max-width: 720px;
+    }
+    /* interview with mocku */
+    .mocku {
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .mocku {
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .mocku-left img {
+        height: 40px;
+        width: 40px;
+    }
+    .mocku-left h3 {
+        font-size: 14px;
+    }
+    .mocku-left p {
+        font-size: 10px;
+    }
+    /*Upcoming Live Course */
+    .live-course {
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .category .four {
+        display: none;
+    }
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Free master class design */
+    .masterclass {
+        max-width: 720px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .category .fourth, .fifth {
+        display: none;
+    }
+    /* cv and code mama part design */
+    .cv-codemama {
+        max-width: 720px;
+        margin: 50px auto;
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+    }
+    .ex-text {
+        font-size: 14px;
+    } 
+    /* কি কি পাচ্ছেন লাইভ কোর্সে */
+    .want {
+        max-width: 720px;
+        margin: 50px auto;
+        margin-top: 30px;
+    }
+    .want-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .want-card h3 {
+        font-size: 14px;
+    }
+    /* Number system design */
+    .number {
+        max-width: 720px;
+        margin: 50px auto;
+        margin-top: 30px;
+    }
+    .number-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .number-card h2 {
+    font-size: 30px;
+    }
+    /* ওস্তাদ গ্র্যাজুয়েটরা */
+    .graduate-main {
+        max-width: 720px;
+        margin: 50px auto;
+        margin-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* download system design */
+    .download-in {
+        max-width: 720px;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .download-left img {
+        width: 100%;
+    }
+    .download-right {
+    padding: 20px;
+    }
+    /* footer section design */
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .header-left {
+        gap: 0 8px;
+    }
+    .search-box {
+        height: 28px;
+        width: 28px; 
+        border-radius: 50%;
+    }
+    .search-box span {
+        display: none;
+    }
+    .header-right img, .en, .all-course {
+        display: none;
+    }
+    .header-left .menu {
+        display: none;
+    }
+    /* Upcoming Live Courses */
+    .category .three {
+        display: none;
+    }
+    .courses {
+        grid-template-columns: 1fr;
+    }
+    /* Free master class design */
+    .category .third {
+        display: none;
+    }
+    /* ওস্তাদ গ্র্যাজুয়েটরা */
+    .graduate-main {
+        grid-template-columns: 1fr;
+    }
+    /* footer section design */
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
