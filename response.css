@@ -176,6 +176,14 @@
     .header-left .menu {
         display: none;
     }
+    /* mocku design */
+     .ex1 {
+        margin: 0 auto;
+        margin-top: 25px;
+     }
+     .mocku-1 {
+        font-size: 14px;
+     }
     /* Upcoming Live Courses */
     .category .three {
         display: none;
@@ -190,6 +198,17 @@
     /* ওস্তাদ গ্র্যাজুয়েটরা */
     .graduate-main {
         grid-template-columns: 1fr;
+    }
+    /* number design */
+    .number-main {
+        gap: 8px;
+    }
+    .number-card {
+    padding: 10px;
+    }
+    /* download section design */
+    .download-section {
+        padding: 10px;
     }
     /* footer section design */
     .footer-content {
