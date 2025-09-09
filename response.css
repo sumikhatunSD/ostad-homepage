@@ -185,14 +185,14 @@
         font-size: 14px;
      }
     /* Upcoming Live Courses */
-    .category .three {
+    .category .three{
         display: none;
     }
     .courses {
         grid-template-columns: 1fr;
     }
     /* Free master class design */
-    .category .third {
+    .category .third, .second {
         display: none;
     }
     /* ওস্তাদ গ্র্যাজুয়েটরা */
